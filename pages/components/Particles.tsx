@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 
 
 
-export const ParticlesComponent = () => 
+export default () => 
 	<WrapperStyle>
 		<Particles
 		params={{

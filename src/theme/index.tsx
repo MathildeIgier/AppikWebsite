@@ -3,16 +3,16 @@ import { extendTheme, theme } from "@chakra-ui/react"
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
   yellow: {
-    400: "#ffe66d",
+    500: "#ffe66d",
   },
   red: {
-    400: "#D90368"
+    500: "#D90368"
   },
   blue: {
-    400: "#011936"
+    500: "#011936"
   },
   green: {
-    400: "#4ECDC4"
+    500: "#4ECDC4"
   },
   white : "#ffffff"
 }

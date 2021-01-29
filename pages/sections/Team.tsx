@@ -1,16 +1,20 @@
 import React from 'react'; // we need this to make JSX compile
 import { Box, Flex } from "@chakra-ui/react"
-import { ParticlesComponent, BubbleParticules } from '../components/Particles';
+import ParticlesComponent, { BubbleParticules } from '../components/Particles';
 import DynamicCard from '../components/DynamicCard';
+import Title from '../components/Title';
 
 
 
 
 
-export const Team = () => {
+export default () => {
     return <Flex py={5} flexDirection='column'>
-        <Box w='100%' backgroundColor='blue.400' py={16} px={5} position='relative'>
-            <Flex zIndex={2} justifyContent='space-around' position='relative'>
+        <Flex flexDirection='column' w='100%' backgroundColor='blue.500' py={16} px={5} position='relative' h={700} justifyContent='space-between'>
+            <Box py={8} color='white'>     
+                <Title title='Team'/>
+            </Box>
+            <Flex zIndex={2} justifyContent='space-around' position='relative' w='100%'>
                 <DynamicCard 
                     title='Mathilde Igier'
                     subtitle='co-Founder of Appik'
@@ -22,9 +26,9 @@ export const Team = () => {
                     text= 'I like to break other team member foot with Typescript'
                 />
             </Flex>
-            <Box position='absolute' h='500px' w='100%' zIndex={1} top={0}> 
+            <Box position='absolute' w='100%' zIndex={1} top={0}> 
                 <BubbleParticules num={1000}/>
             </Box>
-        </Box>
+        </Flex>
     </Flex>
 }

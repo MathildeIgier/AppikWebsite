@@ -1,6 +1,6 @@
 import React from 'react'; // we need this to make JSX compile
 import {  Flex, Box, Text} from "@chakra-ui/react"
-import {Title, Subtitle} from '../components/Title';
+import Title, { Subtitle} from '../components/Title';
 import {BubbleParticules} from '../components/Particles';
 import { IoDesktopOutline, IoPhonePortraitOutline } from "react-icons/io5";
 import { FaReact } from 'react-icons/fa';
@@ -8,13 +8,13 @@ import PhoneSvg from '../../src/svg/phone';
 
 
 
-export const Services = () => {
+export default() => {
     return <Flex p={5} flexDirection='column'>
         <Title title='Services'/>
         <Box p={5}>
             <Box display='flex' justifyContent='space-between' alignItems='center'>
-                <Box backgroundColor='blue.400' width='200px' height='200px' borderRadius='100px' position='relative'>
-                    <Box color='green.400' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
+                <Box backgroundColor='blue.500' width='200px' height='200px' borderRadius='100px' position='relative'>
+                    <Box color='green.500' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
                         <IoPhonePortraitOutline />
                     </Box>
                     <BubbleParticules />
@@ -31,8 +31,8 @@ export const Services = () => {
                     <Subtitle title='Website' />
                     <Box>We like to develop custom website to make the user journey easy and efficient.</Box>
                 </Box>
-                <Box backgroundColor='blue.400' width='200px' height='200px' borderRadius='100px' position='relative'>
-                    <Box color='yellow.400' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
+                <Box backgroundColor='blue.500' width='200px' height='200px' borderRadius='100px' position='relative'>
+                    <Box color='yellow.500' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
                         <IoDesktopOutline />
                     </Box>
                     <BubbleParticules />
@@ -44,21 +44,21 @@ export const Services = () => {
             <Box>We can train team in your company to ... ? Here are our programs:</Box>
             <Box display='flex' justifyContent='space-between' alignItems='center' py={2}>
                 <Box>
-                    <Text color='green.400' fontWeight='bold'>Web</Text>
-                    <Text>ReactJS, Redux, Redux Saga and Firebase - <Text as='span' color='green.400' fontWeight='bold'>BEGINNER</Text></Text>
-                    <Text>Optimized used of ReactJS - <Text as='span' color='green.400' fontWeight='bold'>INTERMEDIATE</Text></Text>
-                    <Text>HTML, CSS and JavaScript - <Text as='span' color='green.400' fontWeight='bold'>ALL LEVELS</Text></Text>
+                    <Text color='green.500' fontWeight='bold'>Web</Text>
+                    <Text>ReactJS, Redux, Redux Saga and Firebase - <Text as='span' color='green.500' fontWeight='bold'>BEGINNER</Text></Text>
+                    <Text>Optimized used of ReactJS - <Text as='span' color='green.500' fontWeight='bold'>INTERMEDIATE</Text></Text>
+                    <Text>HTML, CSS and JavaScript - <Text as='span' color='green.500' fontWeight='bold'>ALL LEVELS</Text></Text>
                 </Box>
-                <Box backgroundColor='blue.400' width='200px' height='200px' borderRadius='100px' position='relative'>
-                    <Box color='red.400' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
+                <Box backgroundColor='blue.500' width='200px' height='200px' borderRadius='100px' position='relative'>
+                    <Box color='red.500' position='absolute' top='57px' left='61px' fontSize={80} fontWeight='100'>
                         <FaReact />
                     </Box>
                     <BubbleParticules />
                 </Box>
                 <Box>
-                    <Text color='green.400' fontWeight='bold'>Mobile</Text>
-                    <Text>React Native, Redux, Redux Saga and Firebase - <Text as='span' color='green.400' fontWeight='bold'>BEGINNER</Text></Text>
-                    <Text>How to masterized React Native ? Animation, stores deployment - <Text as='span' color='green.400' fontWeight='bold'>INTERMEDIATE</Text></Text>
+                    <Text color='green.500' fontWeight='bold'>Mobile</Text>
+                    <Text>React Native, Redux, Redux Saga and Firebase - <Text as='span' color='green.500' fontWeight='bold'>BEGINNER</Text></Text>
+                    <Text>How to masterized React Native ? Animation, stores deployment - <Text as='span' color='green.500' fontWeight='bold'>INTERMEDIATE</Text></Text>
                 </Box>
             </Box>
             

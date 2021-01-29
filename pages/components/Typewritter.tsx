@@ -1,5 +1,7 @@
 import React from 'react'; // we need this to make JSX compile
-import TypeWriterEffect from 'react-typewriter-effect';
+import dynamic from 'next/dynamic'
+
+const TypeWriterEffect = dynamic(() => import('react-typewriter-effect'), { ssr: false }) as any
 
 
 

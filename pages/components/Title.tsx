@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react';
 
 
 
-export const Title = ({title} : {title :string}) => 
+export default ({title} : {title :string}) => 
     <Box textStyle="h2" textAlign='center'>{title}</Box>
 
 export const Subtitle = ({title} : {title :string}) => 

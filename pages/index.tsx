@@ -2,11 +2,12 @@ import * as React from "react"
 import { ChakraProvider, Box } from "@chakra-ui/react"
 
 import Head from 'next/head'
-import { Header } from './sections/Header';
-import { customTheme } from "../src/theme";
-import { Projects } from "./sections/Projects";
-import { Services } from "./sections/Services";
-import { Team } from "./sections/Team";
+import Header from './sections/Header';
+import {customTheme} from "../src/theme";
+import Projects from "./sections/Projects";
+import Services from "./sections/Services";
+import Team from "./sections/Team";
+import Estimation from "./sections/Estimation";
 
 export default function Home() {
   return (
@@ -19,11 +20,12 @@ export default function Home() {
 
       </Head>
       <ChakraProvider theme={customTheme}>
-        <Box color='blue.400' maxHeight='100%' overflow='hidden'>
+        <Box color='blue.500' maxWidth='100%' overflow='hidden'>
           <Header />
           <Projects />
           <Services />
           <Team />
+          <Estimation />
         </Box>
       </ChakraProvider>
     </div>

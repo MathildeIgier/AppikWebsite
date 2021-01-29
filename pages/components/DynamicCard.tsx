@@ -17,7 +17,7 @@ export default function DynamicCard({title, subtitle, text, photo} : {title: str
         style={{ transform: props.xys.interpolate(trans) }}
     >
         <Subtitle title={title}/>
-        <Text color='green.400' fontWeight='bold'>{subtitle}</Text>
+        <Text color='green.500' fontWeight='bold'>{subtitle}</Text>
         <Box paddingTop={8}>{text}</Box>
     </AnimatedCard>
   )

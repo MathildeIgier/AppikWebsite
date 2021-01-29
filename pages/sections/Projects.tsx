@@ -4,7 +4,7 @@ import Swiper from 'react-id-swiper';
 import 'swiper/css/swiper.css'
 
 import Image from 'next/image'
-import { Title, Subtitle } from '../components/Title';
+import Title, { Subtitle } from '../components/Title';
 import ProductSlideWrapper, {Container, CarouselArea, MockupWrapper } from '../components/Carousel';
 
 
@@ -124,9 +124,9 @@ const projectsData  = [
 ]
 
 
-export const Projects = () => {
+export default () => {
     const [selected, setSelected] = useState(0)
-    return <Flex py={5} flexDirection='column'>
+    return <Flex py={5} flexDirection='column' zIndex={10} position='relative'>
         <ProductSlideWrapper>
       <Container>
         <Box py={8} color='white'>     
@@ -136,10 +136,10 @@ export const Projects = () => {
             {projectsData.map((project, index) => 
                 <Box 
                     key={index} 
-                    bgColor={selected === index && 'yellow.400'} 
-                    color={selected !== index && 'yellow.400'} 
+                    bgColor={selected === index && 'yellow.500'} 
+                    color={selected !== index && 'yellow.500'} 
                     borderWidth={3}
-                    borderColor='yellow.400'
+                    borderColor='yellow.500'
                     fontWeight='bold'
                     py={2} 
                     px={5} 
@@ -169,7 +169,7 @@ export const Projects = () => {
             </Swiper>
         </CarouselArea>
         <Box 
-          backgroundColor='blue.400' 
+          backgroundColor='blue.500' 
           p={5}
           color='white'
           position='absolute' 

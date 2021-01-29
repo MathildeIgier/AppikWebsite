@@ -2,14 +2,15 @@ import React, { useState, useRef } from 'react'; // we need this to make JSX com
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { Box, Flex, TabList, Tab, TabPanels, TabPanel, Tabs } from "@chakra-ui/react"
-import { ParticlesComponent } from '../components/Particles';
+import ParticlesComponent from '../components/Particles';
+import Typewritter from '../components/Typewritter';
 
 
 
-const DynamicComponent = dynamic(() => import('../components/Typewritter'), { ssr: false })
+/* const DynamicComponent = dynamic(() => import('../components/Typewritter'), { ssr: false })
+ */
 
-
-export const Header = () => {
+export default () => {
     return <Flex p={5} flexDirection='column'>
         <Image src='/img/logo.svg' width='100' height='60'/>
         <Flex  
@@ -18,7 +19,7 @@ export const Header = () => {
             alignItems='center' 
             textStyle="h1"
         >
-           <DynamicComponent />
+           <Typewritter />
         </Flex>
         <Box position='absolute' h='50vh' w='100%'> 
             <ParticlesComponent />
