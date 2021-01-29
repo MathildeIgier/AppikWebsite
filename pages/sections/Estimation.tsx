@@ -1,13 +1,15 @@
 import React from 'react'; // we need this to make JSX compile
 import { Flex, Box, Textarea, Text, Input, Button } from "@chakra-ui/react"
 import Title from '../components/Title'
+import RocketAnimation from '../components/RocketAnimation';
 
 
 export default () => {
-    return <Flex p={5} flexDirection='column'>
+    return <Flex p={5} flexDirection='column' zIndex='11' position='relative'>
         <Box py={8}>
             <Title title='Estimation'/>
         </Box>
+        <RocketAnimation />
        <Text>Let your contact and some information here. We will recontact you to make an accurate estimation of your project. It is free so enjoy the service!</Text>
        <Flex justifyContent='space-between' py={8}>
             <Input placeholder='Firstname' marginRight={8}/>

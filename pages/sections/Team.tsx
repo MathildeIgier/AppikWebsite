@@ -7,7 +7,6 @@ import Title from '../components/Title';
 
 
 
-
 export default () => {
     return <Flex py={5} flexDirection='column'>
         <Flex flexDirection='column' w='100%' backgroundColor='blue.500' py={16} px={5} position='relative' h={700} justifyContent='space-between'>
