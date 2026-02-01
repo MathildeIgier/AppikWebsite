@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="201px" viewBox="0 0 359 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="Group-2" fill-rule="nonzero">
+                <path d="M135.387024,130.364198 C134.235216,129.798581 132.965121,129.5 131.64713,129.5 L23.7317716,129.5 C22.034284,129.5 20.417163,129.996122 19.037698,130.912256 L17.7399163,132.149083 C17.6412795,132.243087 17.5449172,132.33945 17.4509131,132.438087 C16.7616782,133.161289 16.2151642,133.983086 15.851153,134.806989 C15.4438546,135.810951 15.2317716,136.888637 15.2317716,138 L15.2317716,139.774213 C15.5418112,141.549453 16.4037301,143.182 17.7399151,144.455427 L71.6359246,195.820051 C74.9192396,198.949155 80.0809464,198.949156 83.3642621,195.820052 L137.260084,144.455628 C137.358721,144.361624 137.455083,144.265262 137.549087,144.166625 C140.787778,140.768323 140.658388,135.387976 137.260085,132.149285 L135.387024,130.364198 Z" id="Combined-Shape" stroke="#4ECDC4" stroke-width="5"></path>
+                <path d="M59.6553049,129.5 L95,129.5" id="Line-6" stroke="#FFFFFF" stroke-width="6" stroke-linecap="square"></path>
+                <g id="Tree">
+                    <path d="M78.2105263,98.2028986 L78.2105263,152.605072" id="Line-2" stroke="#4ECDC4" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M79.8144737,100.434783 L98.7328947,80.0339674" id="Line-3" stroke="#4ECDC4" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M59.0196796,100.190847 L79.1066362,81.8961098" id="Line-3" stroke="#4ECDC4" stroke-width="5" stroke-linecap="round" transform="translate(69.063158, 91.043478) rotate(90.000000) translate(-69.063158, -91.043478) "></path>
+                    <path d="M78.1684211,76.4227886 L78.1684211,152.614693" id="Line-2" stroke="#4ECDC4" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M78.4631579,102.108696 L78.4631579,152.634439" id="Line-2" stroke="#4ECDC4" stroke-width="5" stroke-linecap="round"></path>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="39.0842105" cy="54.4021739" rx="12.4736842" ry="12.5543478"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="77.3368421" cy="39.3369565" rx="17.4631579" ry="17.576087"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="120.578947" cy="54.4021739" rx="12.4736842" ry="12.5543478"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="17.4631579" cy="83.6956522" rx="9.14736842" ry="10.0434783"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="137.210526" cy="31.8043478" rx="9.14736842" ry="10.0434783"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="140.536842" cy="83.6956522" rx="9.14736842" ry="10.0434783"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="17.4631579" cy="28.4565217" rx="9.14736842" ry="10.0434783"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="6.65263158" cy="58.5869565" rx="6.65263158" ry="6.69565217"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="44.9052632" cy="20.0869565" rx="6.65263158" ry="6.69565217"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="79.8315789" cy="6.69565217" rx="6.65263158" ry="6.69565217"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="113.094737" cy="23.4347826" rx="6.65263158" ry="6.69565217"></ellipse>
+                    <ellipse id="Oval" fill="#4ECDC4" cx="151.347368" cy="58.5869565" rx="6.65263158" ry="6.69565217"></ellipse>
+                </g>
+            </g>
+            <text id="Appik" font-family="Gafata-Regular, Gafata" font-size="91" font-weight="700" line-spacing="112" letter-spacing="-5.19999981" fill="#4ECDC4">
+                <tspan x="169" y="119">Appik</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

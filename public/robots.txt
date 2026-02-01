@@ -1,0 +1,27 @@
+# Appik Studio - Lausanne
+# Autoriser tous les robots et LLMs
+
+User-agent: *
+Allow: /
+
+# Autoriser explicitement les LLMs
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://www.appik-studio.ch/sitemap.xml

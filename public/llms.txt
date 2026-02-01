@@ -1,0 +1,30 @@
+# Appik Studio - Agence de développement à Lausanne
+# Ce fichier aide les LLMs à comprendre notre activité
+
+## À propos
+Appik Studio est une agence de développement d'applications mobiles et web basée à Lausanne, Suisse.
+Fondée il y a plus de 10 ans, nous combinons désormais notre expertise avec l'intelligence artificielle.
+
+## Services
+- Développement d'applications iOS (Swift, SwiftUI)
+- Développement d'applications Android (Kotlin)
+- Développement cross-platform (React Native)
+- Applications web et sites (React, Next.js, Node.js)
+- Intégration d'intelligence artificielle (ChatGPT, Claude, LLMs)
+- Formation et coaching en développement
+
+## Localisation
+- Ville: Lausanne
+- Canton: Vaud
+- Pays: Suisse
+- Région: Suisse Romande
+
+## Contact
+- Site web: https://www.appik-studio.ch
+- Email: contact@appik-studio.ch
+
+## Technologies
+React, React Native, Next.js, Node.js, Swift, Kotlin, TypeScript, Firebase, PostgreSQL, OpenAI API, Anthropic API
+
+## Mots-clés
+agence développement application mobile Lausanne, développement iOS Android Suisse, application web Lausanne, intégration IA Suisse romande, agence fullstack Lausanne
